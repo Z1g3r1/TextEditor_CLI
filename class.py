@@ -9,7 +9,6 @@ slicer_b = 100
 
 for i in range(text_lines_req):
     s = str(i) + ". " + text[slicer_a:slicer_b].strip()
-    s.strip()
     slicer_a += 100
     slicer_b += 100
     print(s)
